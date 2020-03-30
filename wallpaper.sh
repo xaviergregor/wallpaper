@@ -12,5 +12,5 @@ curl -s -L -o ~/Pictures/Wallpapers/"$(date +%F)".png "https://source.unsplash.c
 # Utiliser le wallpaper comme fond d'ecran par defaut
 osascript -e "tell application \"System Events\" to set picture of every desktop to \"~/Pictures/Wallpapers/$(date +%F).png\""
 
-# On relance
+# On relance le Dock
 killall Dock
